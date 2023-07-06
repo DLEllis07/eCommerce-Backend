@@ -4,6 +4,7 @@
 This week's challenge required us to build the backend for e-Commerce using Express.js for the server, MySQL for the database and Sequelize. The API routes consisted of Products, Tags, Categories.
 
 ## Acceptance Criteria
+```
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 THEN I am able to connect to a database using Sequelize
