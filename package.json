@@ -5,11 +5,12 @@
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+        "start": "node server.js",
+        "seed": "node seeds/index.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DLEllis07/eCommerce-Backend.git"
+        "url": "https://github.com/DLEllis07/eCommerce-Backend.git"
     },
     "author": "",
     "license": "ISC",
@@ -17,9 +18,12 @@
         "url": "https://github.com/DLEllis07/eCommerce-Backend/issues"
     },
     "dependencies": {
+        "dotenv": "^16.3.1",
         "express": "^4.18.2",
-        "mysql2": "^3.4.2",
-        "sequelize": "^6.32.1",
-        "dotenv": "16.3.1"  
+        "mysql2": "^3.4.5",
+        "sequelize": "^6.32.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.14.9"
     }
 }
